@@ -286,12 +286,12 @@ footer .redes a
 	font-size: 16px;
 }
 
-#nosotros
+/*#nosotros
 {
 	background-image: url(img/latas.jpg);
 	background-size: cover;;
 
-}
+}*/
 
 #nosotros p
 {
@@ -332,37 +332,21 @@ footer .redes a
 	font-size: 25px;
 }
 
-#galeria
-{
-
-}
-
 #galeria h4
 {
 	padding-right: 15px;
 	padding-left: 15px;
-	text-align: center;
-	position: absolute;
+	text-align:center;
 	top: 40%;
 	color: white;
 	font-size: 18px;
 	width: 100%;
-}
-
-#galeria img
-{
-	filter: grayscale(1);
 	position: relative;
-}
-
-#galeria .cuadrado-perfecto:hover img
-{
-	filter: grayscale(0);
 }
 
 #galeria .cuadrado-perfecto:hover h4
 {
-	display: none;;
+	display:-webkit-inline-box;
 }
 
 #contactenos
